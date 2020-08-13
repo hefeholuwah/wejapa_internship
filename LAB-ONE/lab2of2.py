@@ -1,0 +1,6 @@
+verse = "if you can keep your head when all about you\n Are losing theirs {0} blaming it on you. \nif you can trust yourself when all men doubt you.\n But make allowance for their doubting too;\nif {1} can wait and not be tired by waiting. \n Or being lied about, don't deal in lies, \nOr being hated, don't give way to hating, \n And yet dont look too good, nor talk too wise:".format("and","you")
+print(verse)
+print((len(verse)))
+print(verse.index("and"))
+print(verse.rindex("you"))
+print(verse.count("you"))
